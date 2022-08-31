@@ -35,7 +35,7 @@ describe("/properties", () => {
         expect(response.body).toHaveProperty("id")
         expect(response.body).toHaveProperty("value")
         expect(response.body).toHaveProperty("size")
-        expect(response.body).toHaveProperty("category")
+        expect(response.body).toHaveProperty("categoryId")
         expect(response.body).toHaveProperty("sold")
         expect(response.body).toHaveProperty("createdAt")
         expect(response.body).toHaveProperty("updatedAt")
